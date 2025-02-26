@@ -1,0 +1,28 @@
+{
+  "name": "mitra-web",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/hello-mymitra/Mitra-Web#readme",
+  "bugs": {
+    "url": "https://github.com/hello-mymitra/Mitra-Web/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hello-mymitra/Mitra-Web.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "webpack.config.js",
+  "scripts": {
+    "build": "webpack --mode=development",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "firebase": "^11.3.1"
+  },
+  "devDependencies": {
+    "webpack": "^5.98.0",
+    "webpack-cli": "^6.0.1"
+  }
+}
