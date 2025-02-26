@@ -5,8 +5,9 @@
 node_modules/
 package-lock.json
 
-#Ignore env file
+#Ignore dot file
 .env
+.DS_Store
 
 #Ignore Firebase Secret Key file
 firebase.config.js
