@@ -12,3 +12,6 @@ package-lock.json
 #Ignore Firebase Secret Key file
 firebase.config.js
 .firebaserc
+
+#Ignore source files
+build/bundle/main.js

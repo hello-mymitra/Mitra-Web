@@ -3,6 +3,7 @@ const path = require('path');
 module.exports = {
     // The entry point file described above
     mode: 'development',
+    // target: 'web',
     module: {
         rules: [
             {
@@ -11,10 +12,12 @@ module.exports = {
             }
         ]
     },
-    entry: ['./dist/index.js'],
+    entry: [
+        './src/Config/firebase.config.js'
+    ],
     output: {
-        path: path.resolve(__dirname, 'src'),
-        filename: 'bundle.js',
+        path: path.resolve(__dirname, 'build'),
+        filename: 'bundle/main.js',
     },
     devtool: 'eval-source-map',
     watch: true,
