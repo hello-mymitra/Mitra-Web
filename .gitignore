@@ -5,13 +5,14 @@
 node_modules/
 package-lock.json
 
-#Ignore dot file
+#Ignore dot files
 .env
 .DS_Store
 
-#Ignore Firebase Secret Key file
-firebase.config.js
+#Ignore Firebase Secret files
+src/Config/firebase.config.js
+firebase.json
 .firebaserc
 
 #Ignore source files
-build/bundle/main.js
+build/bundle
