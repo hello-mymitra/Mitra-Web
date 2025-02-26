@@ -1,9 +1,7 @@
 const path = require('path');
 
 module.exports = {
-    // The entry point file described above
     mode: 'development',
-    // target: 'web',
     module: {
         rules: [
             {
