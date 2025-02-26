@@ -3,9 +3,11 @@
 
 # Ignore node_modules directory
 node_modules/
+package-lock.json
 
 #Ignore env file
 .env
 
 #Ignore Firebase Secret Key file
-firebase.js
+firebase.config.js
+.firebaserc

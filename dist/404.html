@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saga: My404</title>
+    <link rel="icon" type="image/png" href="./assets/Icons/logo.png">
+    <style>
+        #refreshOverlay {
+            position: fixed;
+            display: block;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: white;
+            z-index: 2;
+            cursor: pointer;
+        }
+
+        #refreshOverlay img {
+            position: absolute;
+            left: 50%;
+            top: 45%;
+            transform: translate(-50%, -50%);
+            width: 65px;
+            height: 65px;
+        }
+
+        #refreshOverlay a {
+            position: absolute;
+            left: 50%;
+            bottom: 5%;
+            transform: translate(-50%, -50%);
+        }
+    </style>
+</head>
+
+<body>
+    <section id="refreshOverlay">
+        <img src="./assets/Icons/logo.png" width="50px" height="50px">
+        <a>Saga: MyStory</a>
+    </section>
+</body>
+<script>
+    location.replace("/home.html");
+</script>
+
+</html>
